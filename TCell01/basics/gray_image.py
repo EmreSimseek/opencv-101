@@ -14,7 +14,7 @@ else:
 #cvtColor
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow("gray", gray)
-cv.waitKey(10)
+cv.waitKey(100)
 
 #imwrite
 cv.imwrite(path + "gray_opencv.png", gray) #gray_opencv.png gri resim dosyası olarak klasöre eklendi
