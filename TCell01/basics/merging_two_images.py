@@ -3,7 +3,7 @@ import  numpy as np
 
 path = "E:/Opencv/OpenCV-101/TCell01/images/"
 img1 = cv.imread(path + "zoo.jpg")
-img2 = cv.imread(path + "gray_opencv.png")
+img2 = cv.imread(path + "gray_zoo.png")
 
 cv.imshow("img1",img1) #resim1
 cv.waitKey(1)
