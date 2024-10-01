@@ -1,5 +1,5 @@
 import cv2 as cv
-import numpy as np
+
 
 path="E:/Opencv/OpenCV-101/TCell01/images/"
 
