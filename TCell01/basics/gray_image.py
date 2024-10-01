@@ -17,7 +17,7 @@ cv.imshow("gray", gray)
 cv.waitKey(100)
 
 #imwrite
-cv.imwrite(path + "gray_opencv.png", gray) #gray_opencv.png gri resim dosyası olarak klasöre eklendi
+cv.imwrite(path + "gray_zoo.png", gray) #gray_opencv.png gri resim dosyası olarak klasöre eklendi
 cv.destroyAllWindows()
 
 img = cv.imread(path + "zoo.jpg", cv.IMREAD_GRAYSCALE)
