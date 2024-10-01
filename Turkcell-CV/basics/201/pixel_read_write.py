@@ -1,7 +1,7 @@
 import cv2 as cv
 
 
-path="E:/Opencv/OpenCV-101/TCell01/images/"
+path="E:/Opencv/OpenCV-101/Turkcell-CV/images/"
 
 img = cv.imread(path +"logo.png")
 resized_img = cv.resize(img, (800, 600))

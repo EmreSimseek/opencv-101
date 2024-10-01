@@ -1,6 +1,6 @@
 import cv2 as cv
 
-path = "E:/Opencv/OpenCV-101/TCell01/images/"
+path = "E:/Opencv/OpenCV-101/Turkcell-CV/images/"
 
 img = cv.imread(path + "zoo.jpg")
 #img = cv.imread(path + "opencv.png", cv.IMREAD_GRAYSCALE) direkt olarak gri skala göstermek
