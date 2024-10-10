@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-path="E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path="E:/Opencv/OpenCV-101/images/"
 
 img = cv.imread(path +"zoo.jpg")
 cv.namedWindow("image_create", cv.WINDOW_AUTOSIZE)

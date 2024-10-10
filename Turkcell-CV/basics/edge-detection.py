@@ -1,6 +1,6 @@
 import cv2 as cv
 
-path = "E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path = "E:/Opencv/OpenCV-101/images/"
 image = cv.imread(path + "cats 2.jpg")
 
 gray_image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-path = "E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path = "E:/Opencv/OpenCV-101/images/"
 
 # İkili görüntü (binary image) oluştur
 img = cv2.imread(path + "cats 2.jpg", 0)  #0 Gray #1 BGR #-1 Original

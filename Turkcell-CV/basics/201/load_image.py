@@ -1,6 +1,6 @@
 import cv2 as cv
 
-path = "E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path = "E:/Opencv/OpenCV-101/images/"
 img = cv.imread(path + "zoo.jpg")   #1 Resim dosya adresi verildi
 
 print(type(img))

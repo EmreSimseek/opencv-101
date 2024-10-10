@@ -1,6 +1,6 @@
 import  cv2 as cv
 import numpy as np
-path = "E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path = "E:/Opencv/OpenCV-101/images/"
 src = cv.imread(path + "zoo.jpg")
 src_resized = cv.resize(src, (400, 600))
 cv.namedWindow("input",cv.WINDOW_AUTOSIZE)

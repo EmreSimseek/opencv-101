@@ -1,6 +1,6 @@
 import cv2 as cv
 
-path ="E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path ="E:/Opencv/OpenCV-101/images/"
 
 src1 = cv.imread(path + "garden.jpg")
 src2 = cv.imread(path + "miuul.png")

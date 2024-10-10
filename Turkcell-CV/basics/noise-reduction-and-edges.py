@@ -2,7 +2,7 @@ import cv2 as cv
 
 
 # Resim yolu
-path = "E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path = "E:/Opencv/OpenCV-101/images/"
 src = cv.imread(path + "cats 2.jpg")
 
 # Orijinal görüntü gösterme

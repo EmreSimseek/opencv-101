@@ -25,7 +25,7 @@ def image_hist(image):
         plt.xlim(0, 256)
     plt.show()
 
-path ="E:/Opencv/OpenCV-101/Turkcell-CV/images/"
+path ="E:/Opencv/OpenCV-101/images/"
 src = cv.imread(path + "logo.png")
 zoo = cv.imread(path + "zoo.jpg")
 
