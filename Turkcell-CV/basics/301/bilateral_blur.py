@@ -15,5 +15,5 @@ result[0:h, 0:w, :] = src_resized
 result[0:h, w:2 * w, :] = dst
 
 cv.imshow("result", result)
-cv.waitKey(1)
+cv.waitKey(0)
 
